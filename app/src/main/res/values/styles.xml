@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorText">@color/colorMian</item>
+        <item name="colorTextBackground">@color/bgColorMain</item>
+        <item name="iconBg">@drawable/icon_car</item>
+    </style>
+
+
+    <style name="AppThemeNight" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryNight</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkNight</item>
+        <item name="colorAccent">@color/colorAccentNight</item>
+        <item name="colorText">@color/colorMainNight</item>
+        <item name="colorTextBackground">@color/bgColorMainNight</item>
+        <item name="iconBg">@drawable/icon_air</item>
+    </style>
+
+</resources>
