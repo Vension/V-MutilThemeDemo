@@ -14,7 +14,8 @@
 
         <activity
                 android:name=".MainActivity"
-                android:launchMode="singleTask">
+                android:launchMode="singleTask"
+                android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -22,7 +23,8 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".Activity2"/>
+        <activity android:name=".Activity2"
+                  android:screenOrientation="portrait"/>
 
     </application>
 
